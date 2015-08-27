@@ -9,7 +9,7 @@ body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
   color:#4e4e4e;
-  line-height: 22px;
+  
 }
 
 h1,
@@ -116,7 +116,7 @@ a:focus {
 }
 
 body > section {
-  padding: 70px 0;
+  padding: 5px 0;
 }
 
 .center {
@@ -536,7 +536,7 @@ input.search-form:hover {
 
 #feature {
   background: #f2f2f2;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .features{
