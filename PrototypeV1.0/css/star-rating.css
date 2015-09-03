@@ -28,7 +28,7 @@
     padding-left: 1px;
 }
 
-.rating-gly {
+.rating-gly div {
     font-family: 'Glyphicons Halflings';
 }
 
@@ -141,7 +141,7 @@
     font-size: 2.5em;
 }
 
-.rating-xs {
+.rating-xs  {
     font-size: 2em;
 }
 
