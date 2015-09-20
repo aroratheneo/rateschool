@@ -185,10 +185,8 @@ body > section {
 
 .top-bar {
   padding: 10px 0;
-  background:transparent;
-  /* background: #191919; **/
-/*  border-bottom: 1px solid #222; */
-  border-bottom-color: transparent
+  background: #191919;
+  border-bottom: 1px solid #222;
   line-height: 28px;
 }
 
@@ -262,7 +260,6 @@ input.search-form:hover {
 
 .navbar-brand {
   padding: 0;
-  background: background: #191919;;
   margin:0;
 }
 
