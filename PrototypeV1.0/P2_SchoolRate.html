@@ -30,6 +30,16 @@
     <script src="js/star-rating.js" type="text/javascript"></script>
 	 <style>
 	 
+
+.activity_rounded {
+                border-radius: 100%;
+                
+            }
+
+.activity_rounded img  {
+        border-radius: 100%;
+}
+	 
 	 .lead {
     margin-bottom: 0;
 }
@@ -130,7 +140,7 @@
     </header><!--/header-->
 	
 	
-    <section id="feature" >
+    <section id="SchoolDetails" >
         <div class="container">
 		<div class="Row">
 		
@@ -158,7 +168,38 @@
 				
 				
 				</div>
-				<a property="reviewCount" style="font-size:14px" content="305">Add Reviews</a>
+				<a property="reviewCount" data-toggle="modal" data-target="#myModal" style="font-size:14px" content="305">Add Reviews</a>
+				 <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Add Review of Vivekanand School</h4>
+        </div>
+        <div class="modal-body">
+         <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#" data-value="action">Action</a></li>
+    <li><a href="#" data-value="another action">Another action</a></li>
+    <li><a href="#" data-value="something else here">Something else here</a></li>
+    <li><a href="#" data-value="separated link">Separated link</a></li>
+  </ul>
+</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
 				
             </div>
 			<div class="col-xs-12 col-sm-6 col-lg-8">
@@ -175,17 +216,128 @@
 			
 			</div>
 		</div>
-			
-		<div class="row">
-		</div>
-
-         
+		 
 		</div><!--/.container-->
     </section><!--/#feature-->
+	
+	<section id = "DetailedRating">
+	<hr class="divider">
+
+	 <div class="container">
+	 
+	 <div class="row">
+	 <div class="col-xs-6">
+		<p class="lead">Rating Paremeters</p>
+	 </div>
+	  
+	 </div>
+		
+		<div class="row">
+		<div class="col-xs-6">
+		<div class="star-rating rating-xs rating-active">
+		
+		<div class="clear-rating clear-rating-active" ><p class="lead">Academic Performance</p></div>
+				<div class="rating-container  rating-gly-star" data-content="">
+				<div class="rating-stars" data-content="" style="width: 20%;">
+				</div>
+				
+				</div>
+				
+				
+				
+				</div>
+				
+				<div class="star-rating rating-xs rating-active">
+		
+		<div class="clear-rating clear-rating-active" ><p class="lead">Teaching Methodology</p></div>
+				<div class="rating-container  rating-gly-star" data-content="">
+				<div class="rating-stars" data-content="" style="width: 20%;">
+				</div>
+				
+				</div>
+				
+				
+				
+				</div>
+				
+								<div class="star-rating rating-xs rating-active">
+		
+		<div class="clear-rating clear-rating-active"><p class="lead">Sports and Extracurricular activities</p></div>
+				<div class="rating-container  rating-gly-star" data-content="">
+				<div class="rating-stars" data-content="" style="width: 20%;">
+				</div>
+				
+				</div>
+				
+				
+				
+				</div>
+				
+				<div class="star-rating rating-xs rating-active">
+		
+		<div class="clear-rating clear-rating-active"><p class="lead">Discipline</p></div>
+				<div class="rating-container  rating-gly-star" data-content="">
+				<div class="rating-stars" data-content="" style="width: 20%;">
+				</div>
+				
+				</div>
+				
+				
+				
+				</div>
+		</div>
+		
+		</div>
+
+    
+	 </div>
+	</section>
 
 
 	
 	
+	<section id = "Comments">
+	<hr class="divider">
+
+	 <div class="container">
+	 
+	 <div class="row">
+	 <div class="col-xs-6">
+		<p class="lead">Review Comments</p>
+	 </div>
+	  
+	 </div>
+	 
+	  <div class="row">
+	 <div class="col-xs-2">
+		<p class="lead">Anonymous</p>
+	 </div>
+	  <div class="col-xs-10">
+	  <p style = "  border-radius: 15px 15px 15px 15px;
+        background: #F0F8FF	;
+     ">
+		I took a grand room since v were a family of 4....amazing room....very spacious room...very clean...bed was nice..two giant television sets...excellent pool..the best part was the kids room...u can leave ur kids for a while ..they have a couple of expeeienced staff to look out after them..
+		</p>
+	 </div>
+	 </div>
+	 
+	   <div class="row">
+	 <div class="col-xs-2">
+	<div class="activity_rounded"><img width="74" Height ="74"  src="images/Profile.jpg" /></div>
+	</div>
+	  <div class="col-xs-10">
+	  <p style = "  border-radius: 15px 15px 15px 15px;
+        background: #F0F8FF	;
+     ">
+		I took a grand room since v were a family of 4....amazing room....very spacious room...very clean...bed was nice..two giant television sets...excellent pool..the best part was the kids room...u can leave ur kids for a while ..they have a couple of expeeienced staff to look out after them..
+		</p>
+	 </div>
+	 </div>
+		
+	 </div>
+	</section>
+
+
 
 
     <footer id="footer" class="midnight-blue">
